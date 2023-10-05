@@ -1,0 +1,522 @@
+[
+  {
+    "account_id": 40,
+    "apply_assignment_group_weights": true,
+    "blueprint": false,
+    "calendar": {
+      "ics": "https://canvas.qub.ac.uk/feeds/calendars/course_Aly7xViH1nxHDX0CHl0iWHlNYdSdnU0YuvdbOw5x.ics"
+    },
+    "course_code": "CSC1023",
+    "course_color": null,
+    "created_at": "2022-08-20T04:00:55Z",
+    "default_view": "wiki",
+    "end_at": null,
+    "enrollment_term_id": 39,
+    "enrollments": [
+      {
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false,
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "type": "student",
+        "user_id": 74979
+      },
+      {
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false,
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "type": "student",
+        "user_id": 74979
+      }
+    ],
+    "friendly_name": null,
+    "grade_passback_setting": null,
+    "grading_standard_id": null,
+    "hide_final_grades": true,
+    "homeroom_course": false,
+    "id": 18521,
+    "is_public": false,
+    "is_public_to_auth_users": false,
+    "license": "private",
+    "name": "CSC1023: Databases (2221_SPR)",
+    "public_syllabus": false,
+    "public_syllabus_to_auth": false,
+    "restrict_enrollments_to_course_dates": false,
+    "root_account_id": 1,
+    "start_at": null,
+    "storage_quota_mb": 750,
+    "template": false,
+    "time_zone": "Europe/London",
+    "uuid": "Aly7xViH1nxHDX0CHl0iWHlNYdSdnU0YuvdbOw5x",
+    "workflow_state": "available"
+  },
+  {
+    "account_id": 40,
+    "apply_assignment_group_weights": false,
+    "blueprint": false,
+    "calendar": {
+      "ics": "https://canvas.qub.ac.uk/feeds/calendars/course_uUFVLhFktcD4QJ78vnYGAaoo6PFqAUMA6uysUttl.ics"
+    },
+    "course_code": "CSC1025",
+    "course_color": null,
+    "created_at": "2022-08-20T04:01:31Z",
+    "default_view": "wiki",
+    "end_at": null,
+    "enrollment_term_id": 37,
+    "enrollments": [
+      {
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false,
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "type": "student",
+        "user_id": 74979
+      },
+      {
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false,
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "type": "student",
+        "user_id": 74979
+      }
+    ],
+    "friendly_name": null,
+    "grade_passback_setting": null,
+    "grading_standard_id": null,
+    "hide_final_grades": true,
+    "homeroom_course": false,
+    "id": 19936,
+    "is_public": false,
+    "is_public_to_auth_users": false,
+    "license": "private",
+    "name": "CSC1025: Procedural Programming (2221_AUT)",
+    "public_syllabus": false,
+    "public_syllabus_to_auth": false,
+    "restrict_enrollments_to_course_dates": false,
+    "root_account_id": 1,
+    "start_at": null,
+    "storage_quota_mb": 750,
+    "template": false,
+    "time_zone": "Europe/London",
+    "uuid": "uUFVLhFktcD4QJ78vnYGAaoo6PFqAUMA6uysUttl",
+    "workflow_state": "available"
+  },
+  {
+    "account_id": 40,
+    "apply_assignment_group_weights": false,
+    "blueprint": false,
+    "calendar": {
+      "ics": "https://canvas.qub.ac.uk/feeds/calendars/course_kM9DF9GK4FdY58jQo3H4BBp1Bz9zQS6IC0YAoPf2.ics"
+    },
+    "course_code": "CSC1026",
+    "course_color": null,
+    "created_at": "2022-08-20T04:01:31Z",
+    "default_view": "wiki",
+    "end_at": null,
+    "enrollment_term_id": 37,
+    "enrollments": [
+      {
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false,
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "type": "student",
+        "user_id": 74979
+      },
+      {
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false,
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "type": "student",
+        "user_id": 74979
+      }
+    ],
+    "friendly_name": null,
+    "grade_passback_setting": null,
+    "grading_standard_id": null,
+    "hide_final_grades": false,
+    "homeroom_course": false,
+    "id": 19940,
+    "is_public": null,
+    "is_public_to_auth_users": false,
+    "license": null,
+    "name": "CSC1026: Fundamentals of Maths for Computing (2221_AUT)",
+    "public_syllabus": false,
+    "public_syllabus_to_auth": false,
+    "restrict_enrollments_to_course_dates": false,
+    "root_account_id": 1,
+    "start_at": null,
+    "storage_quota_mb": 750,
+    "template": false,
+    "time_zone": "Europe/London",
+    "uuid": "kM9DF9GK4FdY58jQo3H4BBp1Bz9zQS6IC0YAoPf2",
+    "workflow_state": "available"
+  },
+  {
+    "account_id": 40,
+    "apply_assignment_group_weights": false,
+    "blueprint": false,
+    "calendar": {
+      "ics": "https://canvas.qub.ac.uk/feeds/calendars/course_uyAkFhHeesORdzfwh13hJJ3YdHndmS8s6U7ym6lg.ics"
+    },
+    "course_code": "CSC1029",
+    "course_color": null,
+    "created_at": "2022-08-20T04:01:31Z",
+    "default_view": "wiki",
+    "end_at": null,
+    "enrollment_term_id": 39,
+    "enrollments": [
+      {
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false,
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "type": "student",
+        "user_id": 74979
+      },
+      {
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false,
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "type": "student",
+        "user_id": 74979
+      }
+    ],
+    "friendly_name": null,
+    "grade_passback_setting": null,
+    "grading_standard_id": null,
+    "hide_final_grades": false,
+    "homeroom_course": false,
+    "id": 19933,
+    "is_public": false,
+    "is_public_to_auth_users": false,
+    "license": "private",
+    "name": "CSC1029: Object Oriented Programming (2221_SPR)",
+    "public_syllabus": false,
+    "public_syllabus_to_auth": false,
+    "restrict_enrollments_to_course_dates": false,
+    "root_account_id": 1,
+    "start_at": null,
+    "storage_quota_mb": 750,
+    "template": false,
+    "time_zone": "Europe/London",
+    "uuid": "uyAkFhHeesORdzfwh13hJJ3YdHndmS8s6U7ym6lg",
+    "workflow_state": "available"
+  },
+  {
+    "account_id": 40,
+    "apply_assignment_group_weights": false,
+    "blueprint": false,
+    "calendar": {
+      "ics": "https://canvas.qub.ac.uk/feeds/calendars/course_9Vg6ADdESBGUnsiNR6GBWatGdpbpsbikPUZcHSWs.ics"
+    },
+    "course_code": "CSC1030",
+    "course_color": null,
+    "created_at": "2022-08-20T04:01:31Z",
+    "default_view": "modules",
+    "end_at": null,
+    "enrollment_term_id": 39,
+    "enrollments": [
+      {
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false,
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "type": "student",
+        "user_id": 74979
+      },
+      {
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false,
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "type": "student",
+        "user_id": 74979
+      }
+    ],
+    "friendly_name": null,
+    "grade_passback_setting": null,
+    "grading_standard_id": null,
+    "hide_final_grades": false,
+    "homeroom_course": false,
+    "id": 19945,
+    "is_public": false,
+    "is_public_to_auth_users": false,
+    "license": "private",
+    "name": "CSC1030: Web Technologies (2221_SPR)",
+    "public_syllabus": false,
+    "public_syllabus_to_auth": false,
+    "restrict_enrollments_to_course_dates": false,
+    "root_account_id": 1,
+    "start_at": null,
+    "storage_quota_mb": 750,
+    "template": false,
+    "time_zone": "Europe/London",
+    "uuid": "9Vg6ADdESBGUnsiNR6GBWatGdpbpsbikPUZcHSWs",
+    "workflow_state": "available"
+  },
+  {
+    "account_id": 40,
+    "apply_assignment_group_weights": false,
+    "blueprint": false,
+    "calendar": {
+      "ics": "https://canvas.qub.ac.uk/feeds/calendars/course_kZGDWNJLf3eOP0PANEG22pXYHPnRw6bbvkomfF5I.ics"
+    },
+    "course_code": "CSC1033",
+    "course_color": null,
+    "created_at": "2022-08-26T14:59:36Z",
+    "default_view": "wiki",
+    "end_at": null,
+    "enrollment_term_id": 37,
+    "enrollments": [
+      {
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false,
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "type": "student",
+        "user_id": 74979
+      },
+      {
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false,
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "type": "student",
+        "user_id": 74979
+      }
+    ],
+    "friendly_name": null,
+    "grade_passback_setting": null,
+    "grading_standard_id": null,
+    "hide_final_grades": true,
+    "homeroom_course": false,
+    "id": 20404,
+    "is_public": false,
+    "is_public_to_auth_users": false,
+    "license": "private",
+    "name": "CSC1033: Introduction to Computer Architecture (2221_AUT)",
+    "public_syllabus": false,
+    "public_syllabus_to_auth": false,
+    "restrict_enrollments_to_course_dates": false,
+    "root_account_id": 1,
+    "start_at": null,
+    "storage_quota_mb": 750,
+    "template": false,
+    "time_zone": "Europe/London",
+    "uuid": "kZGDWNJLf3eOP0PANEG22pXYHPnRw6bbvkomfF5I",
+    "workflow_state": "available"
+  },
+  {
+    "account_id": 40,
+    "apply_assignment_group_weights": false,
+    "blueprint": false,
+    "calendar": {
+      "ics": "https://canvas.qub.ac.uk/feeds/calendars/course_Bh9PhceAjMCioUUBv5T90PesUBQnRtgJi3JNKuVa.ics"
+    },
+    "course_code": "CSC2058",
+    "course_color": null,
+    "created_at": "2023-08-19T04:02:27Z",
+    "default_view": "wiki",
+    "end_at": null,
+    "enrollment_term_id": 42,
+    "enrollments": [
+      {
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false,
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "type": "student",
+        "user_id": 74979
+      },
+      {
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false,
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "type": "student",
+        "user_id": 74979
+      }
+    ],
+    "friendly_name": null,
+    "grade_passback_setting": null,
+    "grading_standard_id": null,
+    "hide_final_grades": false,
+    "homeroom_course": false,
+    "id": 24023,
+    "is_public": false,
+    "is_public_to_auth_users": false,
+    "license": "private",
+    "name": "CSC2058: Software Engineering and Systems Development (2231_FYR)",
+    "public_syllabus": false,
+    "public_syllabus_to_auth": false,
+    "restrict_enrollments_to_course_dates": false,
+    "root_account_id": 1,
+    "start_at": null,
+    "storage_quota_mb": 750,
+    "template": false,
+    "time_zone": "Europe/London",
+    "uuid": "Bh9PhceAjMCioUUBv5T90PesUBQnRtgJi3JNKuVa",
+    "workflow_state": "available"
+  },
+  {
+    "account_id": 40,
+    "apply_assignment_group_weights": false,
+    "blueprint": false,
+    "calendar": {
+      "ics": "https://canvas.qub.ac.uk/feeds/calendars/course_qWY9wK3pKeXHa637cYNZ9338WvOjOx0p1vaLjQXI.ics"
+    },
+    "course_code": "CSC2059",
+    "course_color": null,
+    "created_at": "2023-08-19T04:03:04Z",
+    "default_view": "modules",
+    "end_at": null,
+    "enrollment_term_id": 41,
+    "enrollments": [
+      {
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false,
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "type": "student",
+        "user_id": 74979
+      },
+      {
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false,
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "type": "student",
+        "user_id": 74979
+      }
+    ],
+    "friendly_name": null,
+    "grade_passback_setting": null,
+    "grading_standard_id": null,
+    "hide_final_grades": false,
+    "homeroom_course": false,
+    "id": 25527,
+    "is_public": null,
+    "is_public_to_auth_users": false,
+    "license": null,
+    "name": "CSC2059: Data Structures and Algorithms (2231_AUT)",
+    "public_syllabus": false,
+    "public_syllabus_to_auth": false,
+    "restrict_enrollments_to_course_dates": false,
+    "root_account_id": 1,
+    "start_at": null,
+    "storage_quota_mb": 750,
+    "template": false,
+    "time_zone": "Europe/London",
+    "uuid": "qWY9wK3pKeXHa637cYNZ9338WvOjOx0p1vaLjQXI",
+    "workflow_state": "available"
+  },
+  {
+    "account_id": 40,
+    "apply_assignment_group_weights": false,
+    "blueprint": false,
+    "calendar": {
+      "ics": "https://canvas.qub.ac.uk/feeds/calendars/course_4z8sTHfp5TGJy22UeLFfWoFx5zpgCcO1BcGKHnxt.ics"
+    },
+    "course_code": "CSC2065",
+    "course_color": null,
+    "created_at": "2023-08-19T04:03:40Z",
+    "default_view": "modules",
+    "end_at": null,
+    "enrollment_term_id": 41,
+    "enrollments": [
+      {
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false,
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "type": "student",
+        "user_id": 74979
+      },
+      {
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false,
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "type": "student",
+        "user_id": 74979
+      },
+      {
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false,
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "type": "student",
+        "user_id": 74979
+      }
+    ],
+    "friendly_name": null,
+    "grade_passback_setting": null,
+    "grading_standard_id": null,
+    "hide_final_grades": false,
+    "homeroom_course": false,
+    "id": 25955,
+    "is_public": null,
+    "is_public_to_auth_users": false,
+    "license": null,
+    "name": "CSC2065: Professional and Transferrable Skills (2231_AUT)",
+    "public_syllabus": false,
+    "public_syllabus_to_auth": false,
+    "restrict_enrollments_to_course_dates": false,
+    "root_account_id": 1,
+    "start_at": null,
+    "storage_quota_mb": 750,
+    "template": false,
+    "time_zone": "Europe/London",
+    "uuid": "4z8sTHfp5TGJy22UeLFfWoFx5zpgCcO1BcGKHnxt",
+    "workflow_state": "available"
+  },
+  {
+    "account_id": 40,
+    "apply_assignment_group_weights": false,
+    "blueprint": false,
+    "calendar": {
+      "ics": "https://canvas.qub.ac.uk/feeds/calendars/course_65EbtbbDzLqLTjLYIw2N5y5JF1nXM3S71JsYCzCt.ics"
+    },
+    "course_code": "ECS1992",
+    "course_color": null,
+    "created_at": "2023-08-19T04:03:40Z",
+    "default_view": "wiki",
+    "end_at": null,
+    "enrollment_term_id": 42,
+    "enrollments": [
+      {
+        "enrollment_state": "active",
+        "limit_privileges_to_course_section": false,
+        "role": "StudentEnrollment",
+        "role_id": 3,
+        "type": "student",
+        "user_id": 74979
+      }
+    ],
+    "friendly_name": null,
+    "grade_passback_setting": null,
+    "grading_standard_id": null,
+    "hide_final_grades": false,
+    "homeroom_course": false,
+    "id": 25965,
+    "is_public": null,
+    "is_public_to_auth_users": false,
+    "license": null,
+    "name": "ECS1992: Academic Literacy for Direct Entry students in Computer Science (2231_FYR)",
+    "public_syllabus": false,
+    "public_syllabus_to_auth": false,
+    "restrict_enrollments_to_course_dates": false,
+    "root_account_id": 1,
+    "start_at": null,
+    "storage_quota_mb": 750,
+    "template": false,
+    "time_zone": "Europe/London",
+    "uuid": "65EbtbbDzLqLTjLYIw2N5y5JF1nXM3S71JsYCzCt",
+    "workflow_state": "available"
+  }
+]
