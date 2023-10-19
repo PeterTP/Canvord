@@ -17,6 +17,7 @@ use serenity::prelude::*;
 // const PING_COMMAND: &str = "!ping";
 
 const URL: &str = "https://canvas.qub.ac.uk/api/v1/users/self/";
+const DISCORD_TOKEN: &str = "MTE1OTIzNjI5Nzc0MzkzNzU5Ng.GKlK2B.P2NG84au7TwYg60D6q14B41F3ebxZu6K4F-Q24";
 
 #[derive(Hash, PartialEq, Eq)]
 enum Resource {
@@ -52,19 +53,19 @@ impl EventHandler for Handler {
 async fn main() {
     canvas_request(Resource::Course).await.unwrap();
 
-    // dotenv::dotenv().ok();
-    // env::set_var("DISCORD_TOKEN",dotenv::var("DISCORD_TOKEN").unwrap());
-    // let token = env::var("DISCORD_TOKEN").expect("Expected a token in the environment");
-    // // Set gateway intents, which decides what events the bot will be notified about
-    // let intents = GatewayIntents::GUILD_MESSAGES
-    //     | GatewayIntents::DIRECT_MESSAGES
-    //     | GatewayIntents::MESSAGE_CONTENT;
+    dotenv::dotenv().ok();
+    env::set_var("DISCORD_TOKEN", dotenv::var("DISCORD_TOKEN").unwrap());
+    let token = env::var("DISCORD_TOKEN").expect("Expected a token in the environment");
+    // Set gateway intents, which decides what events the bot will be notified about
+    let intents = GatewayIntents::GUILD_MESSAGES
+        | GatewayIntents::DIRECT_MESSAGES
+        | GatewayIntents::MESSAGE_CONTENT;
 
-    // let mut client = Client::builder(&token, intents).event_handler(Handler).await.expect("Error creating client");
+    let mut client = Client::builder(&token, intents).event_handler(Handler).await.expect("Error creating client");
 
-    // if let Err(why) = client.start().await {
-    //     println!("Client error: {:?}", why);
-    // }
+    if let Err(why) = client.start().await {
+        println!("Client error: {:?}", why);
+    }
 }
 
 async fn canvas_request(resource: Resource) -> Result<(), Box<dyn std::error::Error>> {
@@ -85,8 +86,7 @@ async fn canvas_request(resource: Resource) -> Result<(), Box<dyn std::error::Er
     let body = reqwest::get(merged_url).await?.text().await?;
     let mut parsed: Vec<HashMap<String, Value>> = Vec::new();
 
-    if body.chars().nth(0).unwrap() == '[' { // If returned format is array
-        //let parsed_first = &parsed[&0].to_string(); // Get first element of array
+    if body.chars().nth(0).unwrap() == '[' { // If returned format is arrayS
         parsed = serde_json::from_str(&body)?;
     } else {
         parsed.insert(0, serde_json::from_str(&body)?);
