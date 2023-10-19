@@ -1,4 +1,5 @@
 /target
+/src/tempCodeRunnerFile.rs
 
 # dotenv environment variable files
 .env
