@@ -17,7 +17,6 @@ use serenity::prelude::*;
 // const PING_COMMAND: &str = "!ping";
 
 const URL: &str = "https://canvas.qub.ac.uk/api/v1/users/self/";
-const DISCORD_TOKEN: &str = "MTE1OTIzNjI5Nzc0MzkzNzU5Ng.GKlK2B.P2NG84au7TwYg60D6q14B41F3ebxZu6K4F-Q24";
 
 #[derive(Hash, PartialEq, Eq)]
 enum Resource {
